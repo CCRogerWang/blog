@@ -26,7 +26,7 @@ Github：https://github.com/CCRogerWang
 為了解決Controller過於複雜的關係, 增加了一個Manager的概念。Manager不只可以處理資料相關的邏輯，也可以處理UI生成的邏輯。在這個架構下，不僅不需要第三方的套件幫助，也**不會增加學習成本**，且有效的**降低維護成本**。多人開發的時候，依循此架構也可以**增加程式的可讀性**。
 在我經手的新需求中，嚐試寫成模組減少相依性，除了MVC架構外，我會切出另一塊Manager去處理資料相關的邏輯，避免Controller過於龐大，增加維護的成本。我也使用Autolayout來處理UI之間的位置。
 ##### - 對網路層作流程的優化
-建立一個Module對API回來的資料作統一的驗證，**加速**API端的串接。在取得Server的資料後，往往需要做多項的驗證，以前的程式碼是只要寫一隻API串接就會去Copy & Paste之前的驗證來用，此舉非常不明智，所以才建立了一個Module統一處理。
+建立一個Module對API回來的資料作統一的驗證，**加速**API端的串接。在取得Server的資料後，往往需要做多項的驗證，以前的程式碼是只要寫一隻API串接就會去Copy & Paste之前的驗證來用，有很多重複的Code，所以才建立了一個Module統一處理。
 
 **CocoaPods**  
 由於團隊使用的第三套件很多且沒有被整理，所以我推薦團隊使用。自己也寫了一篇關於[如何建立private的pods](https://github.com/CCRogerWang/blog/issues/4)的教學。開發公告平台套件並且建立private pods來發佈給公司內部使用。  
