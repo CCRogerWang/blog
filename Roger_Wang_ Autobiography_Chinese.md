@@ -11,7 +11,7 @@ Line ID：chunchiwang
 LinkedIn：https://www.linkedin.com/in/ccrogerwang/  
 Github：https://github.com/CCRogerWang  
 期望職位：Sr. iOS Developer  
-期望薪資：月薪80k~100k  
+期望薪資：月薪75k~100k  
 
 # 工作經歷  
 ### 一零四資訊科技股份有限公司 （ 2015年4月 ~ ）  
